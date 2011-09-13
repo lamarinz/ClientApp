@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" creationComplete="init(event)">
+    <mx:Script><![CDATA[
+        var _main_class : MainClass;
+
+        protected function init(event:Event)
+        {
+         //  this.layout = "absolute";
+           var _main_class : MainClass = new MainClass();
+           this.addChild(_main_class);
+        }
+        ]]></mx:Script>
+</mx:Application>
